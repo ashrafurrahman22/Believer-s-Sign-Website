@@ -7,9 +7,10 @@
 
 }
 
+#navName {
+    font-size: 30px;
+}
+
 .navbar:hover {
     color: gold;
-}
-.navName {
-    font-size: 30px;
 }
