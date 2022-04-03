@@ -1,0 +1,15 @@
+.navbar {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+
+}
+
+.navbar:hover {
+    color: gold;
+}
+.navName {
+    font-size: 30px;
+}
