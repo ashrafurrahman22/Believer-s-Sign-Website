@@ -1,20 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-// import useReview from '../../hooks/useReview';
+import useReview from '../../hooks/useReview';
 import Reviewer from '../Reviewer/Reviewer';
 import './Home.css'
 
 
 const Home = () => {
-    const [reviewers, setReviewers] = useState([]);
 
-    useEffect(() => {
-        fetch('data.json')
-        .then(res => res.json())
-        .then(data => setReviewers(data))
-    }, [])
-
-    // const [reviewers] = useReview();
+    const [reviewers, setReviewers] = useReview();
 
     return (
         <div className='main-container'>
