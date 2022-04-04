@@ -1,10 +1,11 @@
-
 import React from 'react';
+import './About.css'
 
 const About = () => {
     return (
-        <div>
-            <h2>this is about compo</h2>
+        <div className='about'>
+            <h2>Believer's  Sign</h2>
+            <p>Follow the Sunnah, Not the Society.</p>
         </div>
     );
 };
