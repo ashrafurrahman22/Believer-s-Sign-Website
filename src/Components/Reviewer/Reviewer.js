@@ -1,9 +1,11 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import './Reviewer.css'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Reviewer = ({reviewer}) => {
-    const {name, ratings, review, img} = reviewer;
+    const {name, review, img} = reviewer;
     return (
         <div className='review'>
             <Card style={{ width: '18rem' }}>
@@ -11,7 +13,7 @@ const Reviewer = ({reviewer}) => {
   <Card.Body>
     <Card.Title>{name}</Card.Title>
     <Card.Text>{review}</Card.Text>
-    <p>Ratings: {ratings}</p>
+    <p>Ratings: <FontAwesomeIcon className='filled' icon={faStar} /><FontAwesomeIcon className='filled' icon={faStar} /><FontAwesomeIcon className='filled' icon={faStar} /><FontAwesomeIcon className='filled' icon={faStar} /><FontAwesomeIcon className='filled' icon={faStar} /></p>
   </Card.Body>
 </Card>
         </div>

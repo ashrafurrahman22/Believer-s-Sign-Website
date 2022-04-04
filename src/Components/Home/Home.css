@@ -1,3 +1,37 @@
+.main-container {
+    margin-top: 2%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    align-items: center;
+    
+}
+
+.firstheading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: slategray;
+}
+#description {
+    margin-right: 30px;
+        word-wrap: normal;
+}
+
+.pdname {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: slategrey;
+}
+
+
+.image img {
+    width: 400px;
+    border-radius: 16px;
+}
+
 .review {
     margin-left: 3%;
     margin-right: 3%;
@@ -5,6 +39,12 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
+.reviewName {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 #btn {
     margin: 40px;
