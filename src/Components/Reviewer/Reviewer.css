@@ -1,6 +1,10 @@
 .review img {
     width: 100px;
 }
+#img{
+    border-radius: 60px;
+    padding: 5px;
+}
 
 .filled {
     color: goldenrod;

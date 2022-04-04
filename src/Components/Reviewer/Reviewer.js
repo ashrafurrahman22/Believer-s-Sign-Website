@@ -9,7 +9,7 @@ const Reviewer = ({reviewer}) => {
     return (
         <div className='review'>
             <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top mx-auto" src={img} />
+  <Card.Img id='img' variant="top mx-auto" src={img} />
   <Card.Body>
     <Card.Title>{name}</Card.Title>
     <Card.Text>{review}</Card.Text>
