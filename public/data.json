@@ -1,0 +1,23 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "Jhon Devid",
+        "ratings": 5,
+        "review" : "I was amazed by this perfumes called madaoui. Its the most expensive perfume in the world. Its smell will heal you and refresh your mind.",
+        "img": "./images/person-1.png"
+      },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "Aron Finch",
+        "ratings": 5,
+        "review" : "I was amazed by this perfumes called madaoui. Its the most expensive perfume in the world. Its smell will heal you and refresh your mind.",
+        "img": "./images/person-2.png"
+      },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "name": "Gleen Richardo",
+        "ratings": 5,
+        "review" : "I was amazed by this perfumes called madaoui. Its the most expensive perfume in the world. Its smell will heal you and refresh your mind.",
+        "img": "./images/person-3.png"
+      }
+]
