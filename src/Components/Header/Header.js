@@ -10,7 +10,7 @@ const Header = () => {
             <Navbar bg="light" expand="lg">
   <Container>
     <div>
-    <Navbar.Brand id='navName'>  Believer's Sign</Navbar.Brand>
+    <Navbar.Brand id='navName'>Believer's Sign</Navbar.Brand>
     </div>
     <div>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
